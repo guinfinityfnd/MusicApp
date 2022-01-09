@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bfc3ef21f1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Music</title>
+</head>
+
+<body>
+    <button id="cross">Ok,supply</button>
+    <button class="create"><audio src="./error-effect.mp3" id="error-audio"></audio> Change
+        Background</button>
+    <div class="choosephotoscontainer">
+    </div>
+    <div class="container">
+        <h1>Music App</h1>
+        <div class="content">
+            <div class="song-title">First song</div>
+            <img src="./American_Folk.jpg" alt="picture" id="cover">
+        </div><br>
+        <audio src="./American_Folk.mp3" id="audio"></audio>
+        <div class="progressBar">
+            <div class="currentprogress"></div>
+        </div>
+        <div class="times">
+            <div class="playedTimes">00:00</div>
+            <div class="totalSongTime"></div>
+        </div><br>
+        <div class="btn-group">
+            <button class="prev-btn"><i class="fa fa-backward"></i></button>
+            <button class="playpause-btn"><i class="fa fa-play"></i></button>
+            <button class="next-btn"><i class="fa fa-forward"></i></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
